@@ -1,0 +1,17 @@
+{
+  "name": "webpack_ex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpackdev": "webpack src/index.js --mode development --output public/bundle.js",
+    "webpack": "webpack src/index.js --mode production --output public/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
